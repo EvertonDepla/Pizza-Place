@@ -35,7 +35,7 @@ button:hover {
     opacity: 0.8;
 }
 
-button:active  {
+button:active {
     opacity: 0.6;
 }
 
@@ -47,21 +47,35 @@ ul {
     justify-content: center;
 }
 
-li{
+li {
     border: 2px solid #e31837;
     border-radius: 5px;
     padding: 5px;
 }
+
 img {
     width: 100%;
     border-radius: 5px;
 }
 
-p{
+p {
     color: #0078ae;
 }
 
 .item-price {
     font-weight: bold;
     color: black;
+}
+
+@media (max-width: 450px) {
+    ul {
+        grid-template-columns: 105px 105px 105px;
+    }
+    button {
+        width: 68px;
+        height: 60px;
+    }
+    .container-button {
+        gap: 7px;
+    }
 }
