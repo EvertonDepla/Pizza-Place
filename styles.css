@@ -26,7 +26,7 @@ button {
     color: white;
     padding: 10px;
     cursor: pointer;
-    width: 119px;
+    width: 112px;
     font-size: 12px;
     text-shadow: 1px 1px 0px #555555;
 }
@@ -79,3 +79,32 @@ p {
         gap: 7px;
     }
 }
+
+@media only screen and (max-width: 932px) and (orientation: landscape) {
+    ul {
+        grid-template-columns: 130px 130px 130px 130px;
+    }
+    button {
+        width: 92px;
+        height: 57px;
+    }
+    .container-button {
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    ul {
+        grid-template-columns: 130px 130px 130px;
+    }
+    button {
+        width: 68px;
+        height: 60px;
+    }
+    .container-button {
+        gap: 22px;
+    }
+}
+
+
+
