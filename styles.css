@@ -67,6 +67,19 @@ p {
     color: black;
 }
 
+@media screen and (max-width: 650px) {
+    ul {
+        grid-template-columns: 130px 130px 130px;
+    }
+    button {
+        width: 68px;
+        height: 60px;
+    }
+    .container-button {
+        gap: 22px;
+    }
+}
+
 @media (max-width: 450px) {
     ul {
         grid-template-columns: 105px 105px 105px;
@@ -92,19 +105,3 @@ p {
         gap: 40px;
     }
 }
-
-@media screen and (max-width: 650px) {
-    ul {
-        grid-template-columns: 130px 130px 130px;
-    }
-    button {
-        width: 68px;
-        height: 60px;
-    }
-    .container-button {
-        gap: 22px;
-    }
-}
-
-
-
