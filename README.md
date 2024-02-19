@@ -26,7 +26,7 @@
 
 <div align="center">
 
-<img src="" alt="print-site2" width="300px">
+<img src="https://github.com/EvertonDepla/Pizza-Place/blob/master/assets/pizzamobile.PNG?raw=true" alt="print-site2" width="300px">
 
 </div>
 
