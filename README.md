@@ -34,7 +34,7 @@
 
 <div align="center">
  
-<img src="" margin-left="200px">
+<img src="https://github.com/EvertonDepla/Pizza-Place/blob/master/assets/pizzatablet.PNG?raw=true" margin-left="200px">
 
  </div>
  <footer>
