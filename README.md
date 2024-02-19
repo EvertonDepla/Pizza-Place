@@ -20,7 +20,7 @@
 
 <h3 align="center"> Versão Desktop</h3>
 
-<img src="" alt="print-site1">
+<img src="https://github.com/EvertonDepla/Pizza-Place/blob/master/assets/pizzadesktop.PNG?raw=true" alt="print-site1">
 
 <h3 align="center"> Versão Mobile</h3>
 
